@@ -1,7 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: midnightblue;
+  background-color: #FAFAFA;
   text-align: center;
+}
+
+nav {
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -40,12 +45,17 @@ h1 {
   max-height: 220px;
 }
 
+a.thumb-link:link, :visited, :hover {
+  text-decoration: none;
+  color: midnightblue;
+}
+
 .link-col {
   text-align: center;
 }
 
 .footer {
-  background-color: indigo;
+  background-color: #EEEEEE;
   margin-top: 25%;
 }
 
