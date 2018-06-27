@@ -1,18 +1,52 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: midnightblue;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 6rem;
+  font-size: 10rem;
+  margin-top: 5%;
+  margin-bottom: 20%;
 }
 
+.carousel-image {
+  width: 100%;
+}
 
+#myCarousel {
+  overflow: hidden;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.glyphicon {
+  color: white;
+}
+
+.glyphicon:hover {
+  color: white;
+}
+
+.hobby-thumb {
+  width: 100%;
+}
+
+.thumb-climb {
+  max-height: 220px;
+}
 
 .link-col {
   text-align: center;
+}
+
+.footer {
+  background-color: indigo;
+  margin-top: 25%;
 }
 
 a.top-link:link, :visited, :hover {
