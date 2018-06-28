@@ -8,7 +8,7 @@ The brief was to create a website with a landing page and at least three (3) add
 
 Deciding on using my personal hobbies to create the website I began with a hand-drawn wireframe, before moving to the computer and getting the basic layout written. From here it became easier to add the content and further pages into the pre-built page.
 
-As I added further pages I decided to build a hobby social media-like website with profile pages, a user list, and individual pages for each users hobby.
+As I added further pages I decided to build it into more of a hobby *social media-esque* website with profile pages, a user list, and individual pages for each users hobby.
 
 The technologies I used for this were:
 * HTML5

@@ -43,7 +43,7 @@ h3 {
 
 .jumbotron {
   height: 50vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .jumbo-scuba {
@@ -99,7 +99,7 @@ a.thumb-link:link, a.thumb-link:visited, a.thumb-link:hover {
 
 .footer {
   background-color: #EEEEEE;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 a.top-link:link, a.top-link:visited, a.top-link:hover {
