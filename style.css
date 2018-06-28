@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: midnightblue;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+h1, .profile-title {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 10rem;
+  margin: 5% 0;
+}
+
+h2 /* Hobby it */ {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 10%;
+  letter-spacing: 10px;
+}
+
+.tagline-hobby /* Hobby with person */ {
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+}
+
+.tagline-name {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #FAFAFA;
+  font-size: 7rem;
+  margin-top: 7%;
+}
+
+.jumbotron {
+  height: 50vh;
+  width: 100%;
+}
+
+.jumbo-scuba {
+  background: url("images/tom-scuba.png") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbo-climb {
+  background: url("images/climb1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbo-motorbike {
+  background: url("images/motorbike1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 605px;
+}
+
+.carousel-image-climb {
+  max-height: 605px;
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.glyphicon {
+  color: white;
+}
+
+.glyphicon:hover {
+  color: white;
+}
+
+.hobby-thumb {
+  width: 100%;
+  max-height: 270px;
+}
+
+a.thumb-link:link, a.thumb-link:visited, a.thumb-link:hover {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+.link-col {
+  text-align: center;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  margin-top: 10%;
+}
+
+a.top-link:link, a.top-link:visited, a.top-link:hover {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+a.social-media:link, a.social-media:visited, a.social-media:hover {
+  text-decoration: none;
+  color: midnightblue;
+  font-size: 32px;
+}
+
+.page-tag {
+  margin-bottom: 7%;
+}
+
+.article-single {
+  text-align: left;
+  margin-bottom: 5%;
+}
