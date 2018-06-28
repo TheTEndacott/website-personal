@@ -9,11 +9,11 @@ nav {
   margin-bottom: 10px;
 }
 
-h1 {
+h1, .profile-title {
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 10rem;
-  margin-top: 5%;
+  margin: 5% 0;
 }
 
 h2 /* Hobby it */ {
@@ -24,16 +24,21 @@ h2 /* Hobby it */ {
   letter-spacing: 10px;
 }
 
-.tagline /* Hobby with person */ {
+.tagline-hobby /* Hobby with person */ {
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+}
+
+.tagline-name {
   font-size: 3rem;
-  letter-spacing: 5px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 h3 {
   font-family: 'Lobster', cursive;
   color: #FAFAFA;
-  font-size: 6rem;
+  font-size: 7rem;
+  margin-top: 7%;
 }
 
 .jumbotron {
@@ -109,7 +114,7 @@ a.social-media:link, a.social-media:visited, a.social-media:hover {
 }
 
 .page-tag {
-  margin-bottom: 20%;
+  margin-bottom: 7%;
 }
 
 .article-single {
