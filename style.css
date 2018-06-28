@@ -16,12 +16,18 @@ h1 {
   margin-top: 5%;
 }
 
-.tagline {
+h2 /* Hobby it */ {
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size: 5rem;
   margin-bottom: 10%;
   letter-spacing: 10px;
+}
+
+.tagline /* Hobby with person */ {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  margin-bottom: 5%;
 }
 
 h3 {
@@ -88,6 +94,12 @@ a.thumb-link:link, a.thumb-link:visited, a.thumb-link:hover {
 a.top-link:link, a.top-link:visited, a.top-link:hover {
   color: midnightblue;
   text-decoration: none;
+}
+
+a.social-media:link, a.social-media:visited, a.social-media:hover {
+  text-decoration: none;
+  color: midnightblue;
+  font-size: 32px;
 }
 
 .articles {

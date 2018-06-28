@@ -50,4 +50,8 @@ a.top-link:link, a.top-link:visited, a.top-link:hover {
   text-decoration: none;
 }
 
-
+a.social-media:link, a.social-media:visited, a.social-media:hover {
+  text-decoration: none;
+  color: midnightblue;
+  font-size: 32px;
+}

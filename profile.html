@@ -5,20 +5,59 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Hobbit - Hobby it</title>
   </head>
 
   <body>
-    <nav>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-hand-lizard-o"></i></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="profile.html">Profile <span class="sr-only">(current)</span></a></li>
+            <li><a href="scuba.html">Diving</a></li>
+            <li><a href="climb.html">Climbing</a></li>
+            <li><a href="motorbike.html">Motorbiking</a></li>
+            <!-- Dropdown removed -->
+          </ul>
+          <!-- Search -->
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="profile.html">You!</a></li>
+            <!-- Dropdown removed -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- <nav>
       <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="index.html">Home</a></li>
-        <li role="presentation"><a href="scuba.html">SCUBA</a></li>
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="profile.html">Profile</a></li>
+        <li role="presentation"><a href="scuba.html">Diving</a></li>
         <li role="presentation"><a href="climb.html">Climbing</a></li>
         <li role="presentation"><a href="motorbike.html">Motorbiking</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <div class="container hidden-sm hidden-xs #top">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -58,7 +97,7 @@
     <div class="container hobby-content"> <!-- Main content container -->
       <div class="row">
         <div class="col-md-12">
-          <h1>Hobbit</h1>
+          <h1>Hobbit <i class="fa fa-hand-lizard-o"></i> </h1>
           <h2>Hobby it</h2>
         </div>
       </div>
@@ -93,8 +132,14 @@
     <!-- Footer -->
     <div class="container-fluid">
       <div class="row footer">
-        <div class="col-md-8 col-md-offset-2 link-col">
-          <a class="top-link" href="#top">Top</a>
+        <div class="col-md-2">
+          <a class="social-media" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+          <a class="social-media" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+          <a class="social-media" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="col-md-8">
+          <a class="top-link" href="#top">Top</a> <br>
+          <a class="top-link" href="index.html">Home</a>
         </div>
         <div class="col-md-2">
           <p>&copy; Tom Endacott 2018</p>
