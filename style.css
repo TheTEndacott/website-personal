@@ -14,7 +14,40 @@ h1 {
   text-align: center;
   font-size: 10rem;
   margin-top: 5%;
-  margin-bottom: 20%;
+}
+
+.tagline {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10%;
+  letter-spacing: 10px;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #FAFAFA;
+  font-size: 6rem;
+}
+
+.jumbotron {
+  height: 50vh;
+  width: 100vw;
+}
+
+.jumbo-scuba {
+  background: url("images/tom-scuba.png") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbo-climb {
+  background: url("images/climb1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbo-motorbike {
+  background: url("images/motorbike1.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .carousel-image {
@@ -22,11 +55,7 @@ h1 {
 }
 
 #myCarousel {
-  overflow: hidden;
-}
-
-.item {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .glyphicon {
@@ -39,13 +68,10 @@ h1 {
 
 .hobby-thumb {
   width: 100%;
+  max-height: 270px;
 }
 
-.thumb-climb {
-  max-height: 220px;
-}
-
-a.thumb-link:link, :visited, :hover {
+a.thumb-link:link, a.thumb-link:visited, a.thumb-link:hover {
   text-decoration: none;
   color: midnightblue;
 }
@@ -59,7 +85,11 @@ a.thumb-link:link, :visited, :hover {
   margin-top: 25%;
 }
 
-a.top-link:link, :visited, :hover {
+a.top-link:link, a.top-link:visited, a.top-link:hover {
   color: midnightblue;
   text-decoration: none;
+}
+
+.articles {
+  text-align: left;
 }
